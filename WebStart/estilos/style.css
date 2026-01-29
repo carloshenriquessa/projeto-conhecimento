@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --preto: #1d1d1d;
+    --branco: #F0EDEE;
+    --html-cor: #E96228;
+    --css-cor: #2862E9;
+    --js-cor: #F7D723;
+
+    --fonte-principal: 'Montserrat';
+    --fonte-titulo: 'Bebas Neue';
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--fonte-principal), sans-serif;
+}
+
+header{
+    background-color: var(--preto);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.464);
+}
+
+header img{
+    width: 300px;
+    height: auto;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    padding: 10px;
+}
+
+nav a{
+    color: var(--branco);
+    text-decoration: none;
+    display: flex;
+    font-weight: 400;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: var(--fonte-titulo), sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 10px;
+    text-shadow: -2px 2px 4px #00000050;
+}
+
+h2{
+    font-family: var(--fonte-titulo), sans-serif;
+    text-align: center;
+    font-size: 2em;
+    margin: 10px;
+    text-shadow: -2px 2px 4px #00000050;
+}
+
+h3{
+    font-family: var(--fonte-titulo), sans-serif;
+    padding-left: 20px;
+    font-size: 1.8em;
+    letter-spacing: 4px;
+    background-color: var(--preto);
+    margin: 15px;
+}
+
+#cor-html{
+    color: var(--html-cor);
+}
+
+#cor-css{
+    color: var(--css-cor);
+}
+
+#cor-js{
+    color: var(--js-cor);
+}
+
+p{
+    text-align: justify;
+    font-size: 1.3em;
+    text-indent: 30px;
+    letter-spacing: 1.5px;
+}
+
+footer{
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 20px;
+    font-size: 0.8em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img{
+    width: 100px;
+}
+
+footer p{
+    text-align: center;
+}
